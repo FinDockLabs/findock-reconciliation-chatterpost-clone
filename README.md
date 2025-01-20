@@ -1,4 +1,4 @@
-<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=findock-reconciliation-chatterpost-clone&ref=Main">
+<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=findock-reconciliation-chatterpost-clone&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
