@@ -50,8 +50,11 @@ classes/FinDockLocalChatterFeedItemTest.cls
 - any other deployment method you prefer.
 
 ## Configuration
-1. Create a platform event subscriber configuration to run the Apex trigger in the context of the FinDock Integration User. Run the following POST command from workbench. Before you run it, please replace "recordID of apex trigger" with the record ID of the Apex trigger created by this project and replace  "userID of FinDock integration user" with the userID of the FinDock Integration User
-
+1. Create a platform event subscriber configuration to run the Apex trigger in the context of the FinDock Integration User. Please edit the body of the command as described below
+    - replace "recordID of apex trigger" with the record ID of the Apex trigger created by this project
+    - replace  "userID of FinDock integration user" with the userID of the FinDock Integration User
+    
+    Run the following POST Command from Workbench
     - End point : /services/data/v58.0/tooling/sobjects/PlatformEventSubscriberConfig
     - Body
     {
